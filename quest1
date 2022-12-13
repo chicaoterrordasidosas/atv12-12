@@ -1,0 +1,21 @@
+programa
+{
+	
+
+	funcao inicio()
+	{
+		inteiro v[10],ve[10],vec[10]
+			para(inteiro i=0; i < 10; i++){
+				escreva("\ninforme o número 'A'na posição.: ",i,"\n")
+		leia(v[i])
+		}
+			para(inteiro i=0; i < 10; i++){
+				escreva("\ninforme o número 'B'na posição.: ",+i,"\n")
+		leia(ve[i])
+		}
+			para(inteiro i=0; i < 10; i++){
+		vec[i]=v[i]+ve[i]
+				escreva("\n o valor C na posição "+i+" é igual a.:"+vec[i])
+		}
+	}
+}
