@@ -1,0 +1,17 @@
+programa
+{
+	funcao inicio()
+	{
+		inteiro repetir[20],n,repetido=0
+				para(inteiro i=0; i < 20; i++){
+			escreva ("\ninsira um número:")
+		leia(repetir[i])
+		}
+			escreva ("\nQual número você quer saber a quantidade de repetições:")
+		leia (n)
+				para(inteiro i=0; i < 20; i++){
+		se (repetir[i] == n){repetido++}
+		}
+			escreva ("/nO número ",n," foi repetido",repetido," vezes")
+	}
+}
